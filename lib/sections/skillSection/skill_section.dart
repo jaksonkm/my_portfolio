@@ -32,12 +32,7 @@ class skillSection extends StatelessWidget {
  
                     ),],
                     shape: BoxShape.circle,
-                    image: const DecorationImage(
-                      fit: BoxFit.fill,
-                      image: AssetImage("assets/images/eos.png"),
-                    ),
                   ),
-                  //child: Image.asset('assets/images/uc.png'),
                ),
                const SizedBox(width: 20,),
                 const Column(
@@ -74,12 +69,7 @@ class skillSection extends StatelessWidget {
  
                     ),],
                     shape: BoxShape.circle,
-                    image: const DecorationImage(
-                      fit: BoxFit.fill,
-                      image: AssetImage('assets/images/aeco.png'),
-                    ),
                   ),
-                  //child: Image.asset('assets/images/ajce.png'),
                ),
                const SizedBox(width: 20,),
                 const Column(
@@ -115,12 +105,7 @@ class skillSection extends StatelessWidget {
  
                     ),],
                     shape: BoxShape.circle,
-                    image: const DecorationImage(
-                      fit: BoxFit.fill,
-                      image: AssetImage('assets/images/aeco.png'),
-                    ),
                   ),
-                  //child: Image.asset('assets/images/ajce.png'),
                ),
                const SizedBox(width: 20,),
                 const Column(
