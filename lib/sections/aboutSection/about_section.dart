@@ -8,9 +8,9 @@ class AboutSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return const SizedBox(
       width: 1110,
-      child: const Column(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('About me', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 50),),

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class skillSection extends StatelessWidget {
   const skillSection({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: 1110,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
